@@ -1,5 +1,8 @@
 package exceptions;
 
+/**
+ * Custom exception ~ FileOperationsFailedException thrown when file operation is failed.
+ */
 @SuppressWarnings("serial")
 public class FileOperationsFailedException extends RuntimeException {
 	

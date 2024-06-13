@@ -3,6 +3,9 @@ package constants;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * This class contains constants used throughout the framework.
+ */
 public final class FrameworkConstants {
 
 	private FrameworkConstants() {

@@ -5,8 +5,8 @@
   "timelineEnabled": true,
   "offlineMode": true,
   "thumbnailForBase64": true,
-  "documentTitle": "Test Report",
-  "reportName": "Test Report",
+  "documentTitle": "Cucumber Spark Test Report",
+  "reportName": "Cucumber Spark Test Report",
   "timeStampFormat": "dd MMM, yyyy HH:mm:ss a",
   "js": "",
   "css": ""

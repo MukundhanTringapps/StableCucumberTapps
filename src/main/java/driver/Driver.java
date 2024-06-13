@@ -9,11 +9,17 @@ import factories.DriverFactory;
 import reports.ExtentLogger;
 import utils.PropertyUtils;
 
+/**
+ * This class is responsible for managing the WebDriver instance.
+ */
 public final class Driver {
 
 	private Driver() {
 	}
 
+	/**
+     * Initializes the WebDriver instance.
+     */
 	public static void initDriver() {
 		
 		if (Objects.isNull(DriverManager.getDriver())) {
@@ -30,6 +36,10 @@ public final class Driver {
 		}
 	}
 	
+
+    /**
+     * Quits the WebDriver instance.
+     */
 	public static void quitDriver() {
 		if (Objects.nonNull(DriverManager.getDriver())) {
 			DriverManager.getDriver().quit();

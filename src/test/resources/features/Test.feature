@@ -8,11 +8,11 @@ Feature: Clear The Shelters Home Page
     Then Close the browser
 
     Examples: 
-      | TC_number | TC_title                    |
-      | TC 001    | First Testcase Test.feature |
+      | TC_number | TC_title       |
+      | TC 001    | First Testcase |
 
-  Scenario: Verify page loading in the CLEAR THE SHELTERS site
-    Given TC number "TC 002" and title "Second Testcase Test.feature"
+  Scenario: To verify page loading in the CLEAR THE SHELTERS site
+    Given TC number "TC 002" and title "Second Testcase"
     Then Launch the browser
     And Fetch the URL
     Then Verify the Page loading in site

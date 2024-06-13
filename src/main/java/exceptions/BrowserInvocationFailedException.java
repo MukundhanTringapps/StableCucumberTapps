@@ -1,5 +1,8 @@
 package exceptions;
 
+/**
+ * Custom exception ~ BrowserInvocationFailedException thrown when browser invocation fails.
+ */
 @SuppressWarnings("serial")
 public class BrowserInvocationFailedException extends RuntimeException {
 	

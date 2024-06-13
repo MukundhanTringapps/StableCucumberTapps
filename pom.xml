@@ -4,13 +4,11 @@
   <artifactId>StableCucumber</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-  
   <properties>
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-  
   
   <dependencies>
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
@@ -77,6 +75,13 @@
 		    <version>2.16.0</version>
 		</dependency>
 		
+		<!-- https://mvnrepository.com/artifact/tech.grasshopper/extentreports-cucumber7-adapter -->
+		<dependency>
+		    <groupId>tech.grasshopper</groupId>
+		    <artifactId>extentreports-cucumber7-adapter</artifactId>
+		    <version>1.14.0</version>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
@@ -91,7 +96,6 @@
 		          </suiteXmlFiles>
 		        </configuration>
 		      </plugin>
-		      
 		</plugins>
 	</build>
 
